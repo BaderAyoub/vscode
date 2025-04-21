@@ -15,6 +15,9 @@ import { IPaneCompositePartService } from '../../../services/panecomposite/brows
 import { ViewContainerLocation } from '../../../common/views.js';
 import { SideBarVisibleContext } from '../../../common/contextkeys.js';
 
+
+// Potential fix for sidebar toggle alignment issue - exploration
+
 registerAction2(class extends Action2 {
 
 	constructor() {
